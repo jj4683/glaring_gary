@@ -1,0 +1,8 @@
+list = [3, 5, 7, 0, -3, 27, -37, 1.9, -25.8]
+list_2 = [3, 5, 7, 0, -3, 27, -37, 1.9, -25.8]
+list_new = []
+for x in list:
+    x = max(list_2)
+    list_new.insert(0, x)
+    list_2.remove(x)
+print(list_new)
