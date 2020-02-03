@@ -1,0 +1,7 @@
+list = [7, 11, 13, 170, 38, 60, 2, -13, -1.5, 4.5]
+list_new = []
+while len(list) > 0:
+    x = max(list)
+    list_new.insert(0, x)
+    list.remove(x)
+print(list_new)
