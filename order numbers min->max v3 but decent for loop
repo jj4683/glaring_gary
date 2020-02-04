@@ -1,0 +1,7 @@
+list = [7, -19.7, 11, 13, 170, 90, 38, 60, 2, -13, -1.5, 4.5]
+list_ordered = []
+for int in range(len(list)):
+    x = max(list)
+    list_ordered.insert(0, x)
+    list.remove(x)
+print(list_ordered)
